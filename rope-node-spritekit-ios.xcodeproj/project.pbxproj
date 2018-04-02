@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92AA6CE2071FFDC00DED756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6CD2071FFDC00DED756 /* AppDelegate.swift */; };
+		A92AA6D02071FFDC00DED756 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6CF2071FFDC00DED756 /* GameScene.sks */; };
+		A92AA6D22071FFDC00DED756 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6D12071FFDC00DED756 /* Actions.sks */; };
+		A92AA6D42071FFDC00DED756 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6D32071FFDC00DED756 /* GameScene.swift */; };
+		A92AA6D62071FFDC00DED756 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6D52071FFDC00DED756 /* GameViewController.swift */; };
+		A92AA6D92071FFDC00DED756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6D72071FFDC00DED756 /* Main.storyboard */; };
+		A92AA6DB2071FFDD00DED756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DA2071FFDD00DED756 /* Assets.xcassets */; };
+		A92AA6DE2071FFDD00DED756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */; };
+		A92AA6E92071FFDD00DED756 /* rope_node_spritekit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */; };
+		A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92AA6E52071FFDD00DED756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92AA6C22071FFDC00DED756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92AA6C92071FFDC00DED756;
+			remoteInfo = "rope-node-spritekit-ios";
+		};
+		A92AA6F02071FFDD00DED756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92AA6C22071FFDC00DED756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92AA6C92071FFDC00DED756;
+			remoteInfo = "rope-node-spritekit-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rope-node-spritekit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AA6CD2071FFDC00DED756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A92AA6CF2071FFDC00DED756 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A92AA6D12071FFDC00DED756 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A92AA6D32071FFDC00DED756 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A92AA6D52071FFDC00DED756 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A92AA6D82071FFDC00DED756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92AA6DA2071FFDD00DED756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92AA6DD2071FFDD00DED756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92AA6DF2071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rope-node-spritekit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rope_node_spritekit_iosTests.swift; sourceTree = "<group>"; };
+		A92AA6EA2071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rope-node-spritekit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rope_node_spritekit_iosUITests.swift; sourceTree = "<group>"; };
+		A92AA6F52071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92AA6C72071FFDC00DED756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6E12071FFDD00DED756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6EC2071FFDD00DED756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92AA6C12071FFDC00DED756 = {
+			isa = PBXGroup;
+			children = (
+				A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */,
+				A92AA6E72071FFDD00DED756 /* rope-node-spritekit-iosTests */,
+				A92AA6F22071FFDD00DED756 /* rope-node-spritekit-iosUITests */,
+				A92AA6CB2071FFDC00DED756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92AA6CB2071FFDC00DED756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */,
+				A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */,
+				A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6CD2071FFDC00DED756 /* AppDelegate.swift */,
+				A92AA6CF2071FFDC00DED756 /* GameScene.sks */,
+				A92AA6D12071FFDC00DED756 /* Actions.sks */,
+				A92AA6D32071FFDC00DED756 /* GameScene.swift */,
+				A92AA6D52071FFDC00DED756 /* GameViewController.swift */,
+				A92AA6D72071FFDC00DED756 /* Main.storyboard */,
+				A92AA6DA2071FFDD00DED756 /* Assets.xcassets */,
+				A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */,
+				A92AA6DF2071FFDD00DED756 /* Info.plist */,
+			);
+			path = "rope-node-spritekit-ios";
+			sourceTree = "<group>";
+		};
+		A92AA6E72071FFDD00DED756 /* rope-node-spritekit-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */,
+				A92AA6EA2071FFDD00DED756 /* Info.plist */,
+			);
+			path = "rope-node-spritekit-iosTests";
+			sourceTree = "<group>";
+		};
+		A92AA6F22071FFDD00DED756 /* rope-node-spritekit-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */,
+				A92AA6F52071FFDD00DED756 /* Info.plist */,
+			);
+			path = "rope-node-spritekit-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-ios" */;
+			buildPhases = (
+				A92AA6C62071FFDC00DED756 /* Sources */,
+				A92AA6C72071FFDC00DED756 /* Frameworks */,
+				A92AA6C82071FFDC00DED756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rope-node-spritekit-ios";
+			productName = "rope-node-spritekit-ios";
+			productReference = A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92AA6E32071FFDD00DED756 /* rope-node-spritekit-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92AA6FB2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosTests" */;
+			buildPhases = (
+				A92AA6E02071FFDD00DED756 /* Sources */,
+				A92AA6E12071FFDD00DED756 /* Frameworks */,
+				A92AA6E22071FFDD00DED756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92AA6E62071FFDD00DED756 /* PBXTargetDependency */,
+			);
+			name = "rope-node-spritekit-iosTests";
+			productName = "rope-node-spritekit-iosTests";
+			productReference = A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A92AA6EE2071FFDD00DED756 /* rope-node-spritekit-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92AA6FE2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosUITests" */;
+			buildPhases = (
+				A92AA6EB2071FFDD00DED756 /* Sources */,
+				A92AA6EC2071FFDD00DED756 /* Frameworks */,
+				A92AA6ED2071FFDD00DED756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92AA6F12071FFDD00DED756 /* PBXTargetDependency */,
+			);
+			name = "rope-node-spritekit-iosUITests";
+			productName = "rope-node-spritekit-iosUITests";
+			productReference = A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92AA6C22071FFDC00DED756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Astemir Eleev";
+				TargetAttributes = {
+					A92AA6C92071FFDC00DED756 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A92AA6E32071FFDD00DED756 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A92AA6C92071FFDC00DED756;
+					};
+					A92AA6EE2071FFDD00DED756 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A92AA6C92071FFDC00DED756;
+					};
+				};
+			};
+			buildConfigurationList = A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "rope-node-spritekit-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92AA6C12071FFDC00DED756;
+			productRefGroup = A92AA6CB2071FFDC00DED756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */,
+				A92AA6E32071FFDD00DED756 /* rope-node-spritekit-iosTests */,
+				A92AA6EE2071FFDD00DED756 /* rope-node-spritekit-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92AA6C82071FFDC00DED756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92AA6D92071FFDC00DED756 /* Main.storyboard in Resources */,
+				A92AA6D02071FFDC00DED756 /* GameScene.sks in Resources */,
+				A92AA6DB2071FFDD00DED756 /* Assets.xcassets in Resources */,
+				A92AA6DE2071FFDD00DED756 /* LaunchScreen.storyboard in Resources */,
+				A92AA6D22071FFDC00DED756 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6E22071FFDD00DED756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6ED2071FFDD00DED756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92AA6C62071FFDC00DED756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92AA6D42071FFDC00DED756 /* GameScene.swift in Sources */,
+				A92AA6D62071FFDC00DED756 /* GameViewController.swift in Sources */,
+				A92AA6CE2071FFDC00DED756 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6E02071FFDD00DED756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92AA6E92071FFDD00DED756 /* rope_node_spritekit_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92AA6EB2071FFDD00DED756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92AA6E62071FFDD00DED756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */;
+			targetProxy = A92AA6E52071FFDD00DED756 /* PBXContainerItemProxy */;
+		};
+		A92AA6F12071FFDD00DED756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */;
+			targetProxy = A92AA6F02071FFDD00DED756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92AA6D72071FFDC00DED756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92AA6D82071FFDC00DED756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92AA6DD2071FFDD00DED756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92AA6F62071FFDD00DED756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A92AA6F72071FFDD00DED756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92AA6F92071FFDD00DED756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A92AA6FA2071FFDD00DED756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A92AA6FC2071FFDD00DED756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rope-node-spritekit-ios.app/rope-node-spritekit-ios";
+			};
+			name = Debug;
+		};
+		A92AA6FD2071FFDD00DED756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rope-node-spritekit-ios.app/rope-node-spritekit-ios";
+			};
+			name = Release;
+		};
+		A92AA6FF2071FFDD00DED756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rope-node-spritekit-ios";
+			};
+			name = Debug;
+		};
+		A92AA7002071FFDD00DED756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3K58FE38R;
+				INFOPLIST_FILE = "rope-node-spritekit-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rope-node-spritekit-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "rope-node-spritekit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92AA6F62071FFDD00DED756 /* Debug */,
+				A92AA6F72071FFDD00DED756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92AA6F92071FFDD00DED756 /* Debug */,
+				A92AA6FA2071FFDD00DED756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92AA6FB2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92AA6FC2071FFDD00DED756 /* Debug */,
+				A92AA6FD2071FFDD00DED756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92AA6FE2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92AA6FF2071FFDD00DED756 /* Debug */,
+				A92AA7002071FFDD00DED756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92AA6C22071FFDC00DED756 /* Project object */;
+}
