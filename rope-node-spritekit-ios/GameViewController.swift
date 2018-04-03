@@ -29,6 +29,7 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            view.showsPhysics = false
         }
     }
 
@@ -37,11 +38,13 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscapeLeft
+        
+//        if UIDevice.current.userInterfaceIdiom == .phone {
+//            return .allButUpsideDown
+//        } else {
+//            return .all
+//        }
     }
 
     override func didReceiveMemoryWarning() {
