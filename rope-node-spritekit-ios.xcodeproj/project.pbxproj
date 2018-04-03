@@ -17,6 +17,8 @@
 		A92AA6DE2071FFDD00DED756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */; };
 		A92AA6E92071FFDD00DED756 /* rope_node_spritekit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */; };
 		A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */; };
+		A92AA7022072007800DED756 /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA7012072007800DED756 /* RopeNode.swift */; };
+		A92AA7042073FD7800DED756 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A92AA7032073FD7800DED756 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rope-node-spritekit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rope_node_spritekit_iosUITests.swift; sourceTree = "<group>"; };
 		A92AA6F52071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92AA7012072007800DED756 /* RopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
+		A92AA7032073FD7800DED756 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		A92AA6C12071FFDC00DED756 = {
 			isa = PBXGroup;
 			children = (
+				A92AA7032073FD7800DED756 /* .gitignore */,
 				A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */,
 				A92AA6E72071FFDD00DED756 /* rope-node-spritekit-iosTests */,
 				A92AA6F22071FFDD00DED756 /* rope-node-spritekit-iosUITests */,
@@ -112,6 +117,7 @@
 				A92AA6DA2071FFDD00DED756 /* Assets.xcassets */,
 				A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */,
 				A92AA6DF2071FFDD00DED756 /* Info.plist */,
+				A92AA7012072007800DED756 /* RopeNode.swift */,
 			);
 			path = "rope-node-spritekit-ios";
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 				A92AA6D02071FFDC00DED756 /* GameScene.sks in Resources */,
 				A92AA6DB2071FFDD00DED756 /* Assets.xcassets in Resources */,
 				A92AA6DE2071FFDD00DED756 /* LaunchScreen.storyboard in Resources */,
+				A92AA7042073FD7800DED756 /* .gitignore in Resources */,
 				A92AA6D22071FFDC00DED756 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92AA6D42071FFDC00DED756 /* GameScene.swift in Sources */,
+				A92AA7022072007800DED756 /* RopeNode.swift in Sources */,
 				A92AA6D62071FFDC00DED756 /* GameViewController.swift in Sources */,
 				A92AA6CE2071FFDC00DED756 /* AppDelegate.swift in Sources */,
 			);
