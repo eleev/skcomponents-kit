@@ -19,6 +19,7 @@
 		A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */; };
 		A92AA7022072007800DED756 /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA7012072007800DED756 /* RopeNode.swift */; };
 		A92AA7042073FD7800DED756 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A92AA7032073FD7800DED756 /* .gitignore */; };
+		A9E6A02020751D730069F3C1 /* SpriteRopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A92AA6F52071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92AA7012072007800DED756 /* RopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
 		A92AA7032073FD7800DED756 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteRopeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,16 +110,13 @@
 		A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A9E6A02420751DBD0069F3C1 /* View */,
+				A9E6A02320751DB60069F3C1 /* View Controllers */,
+				A9E6A02220751D9D0069F3C1 /* Scenes */,
+				A9E6A02120751D950069F3C1 /* Rope Node */,
 				A92AA6CD2071FFDC00DED756 /* AppDelegate.swift */,
-				A92AA6CF2071FFDC00DED756 /* GameScene.sks */,
-				A92AA6D12071FFDC00DED756 /* Actions.sks */,
-				A92AA6D32071FFDC00DED756 /* GameScene.swift */,
-				A92AA6D52071FFDC00DED756 /* GameViewController.swift */,
-				A92AA6D72071FFDC00DED756 /* Main.storyboard */,
 				A92AA6DA2071FFDD00DED756 /* Assets.xcassets */,
-				A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */,
 				A92AA6DF2071FFDD00DED756 /* Info.plist */,
-				A92AA7012072007800DED756 /* RopeNode.swift */,
 			);
 			path = "rope-node-spritekit-ios";
 			sourceTree = "<group>";
@@ -138,6 +137,42 @@
 				A92AA6F52071FFDD00DED756 /* Info.plist */,
 			);
 			path = "rope-node-spritekit-iosUITests";
+			sourceTree = "<group>";
+		};
+		A9E6A02120751D950069F3C1 /* Rope Node */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA7012072007800DED756 /* RopeNode.swift */,
+				A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */,
+			);
+			path = "Rope Node";
+			sourceTree = "<group>";
+		};
+		A9E6A02220751D9D0069F3C1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6CF2071FFDC00DED756 /* GameScene.sks */,
+				A92AA6D12071FFDC00DED756 /* Actions.sks */,
+				A92AA6D32071FFDC00DED756 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A9E6A02320751DB60069F3C1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6D52071FFDC00DED756 /* GameViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A9E6A02420751DBD0069F3C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A92AA6D72071FFDC00DED756 /* Main.storyboard */,
+				A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +311,7 @@
 			files = (
 				A92AA6D42071FFDC00DED756 /* GameScene.swift in Sources */,
 				A92AA7022072007800DED756 /* RopeNode.swift in Sources */,
+				A9E6A02020751D730069F3C1 /* SpriteRopeNode.swift in Sources */,
 				A92AA6D62071FFDC00DED756 /* GameViewController.swift in Sources */,
 				A92AA6CE2071FFDC00DED756 /* AppDelegate.swift in Sources */,
 			);
