@@ -1,5 +1,5 @@
 # rope-node-spritekit-ios
-⛓ SpriteKit-based rope/chain node component 
+⛓ SpriteKit-based rope/chain node component. Pretty straightforward inplementation, SpriteKit already has everything built in.
 
 # Demo 
 
