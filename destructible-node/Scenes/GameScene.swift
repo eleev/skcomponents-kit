@@ -52,10 +52,27 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // MARK: - Private helpers
     
+    private func explositonEffect(at contactPosition: CGPoint) {
+        guard let explosionEmitter = SKEmitterNode(fileNamed: "ExplosionParticleEmitter") else {
+            return
+        }
+        explosionEmitter.position = contactPosition
+        addChild(explosionEmitter)
+        
+        let waitAction = SKAction.wait(forDuration: TimeInterval(explosionEmitter.particleLifetime * 4))
+        let removeAction = SKAction.removeFromParent()
+        let seqeunce = SKAction.sequence([waitAction, removeAction])
+        explosionEmitter.run(seqeunce)
+        
+    }
+    
     private func hitTest(ball: SKShapeNode, contact: SKPhysicsContact) {
         let objectSize = CGSize(width: 50, height: 50)
-        let buildingLocation = convert(contact.contactPoint, to: groundNode!)
+        let contactPoint = contact.contactPoint
+        
+        let buildingLocation = convert(contactPoint, to: groundNode!)
         groundNode?.hitAt(point: buildingLocation, objectSize: objectSize)
+        explositonEffect(at: contactPoint)
         
         ball.removeFromParent()
     }
