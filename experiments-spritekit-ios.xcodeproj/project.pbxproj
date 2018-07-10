@@ -15,32 +15,22 @@
 		A92AA6D92071FFDC00DED756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6D72071FFDC00DED756 /* Main.storyboard */; };
 		A92AA6DB2071FFDD00DED756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DA2071FFDD00DED756 /* Assets.xcassets */; };
 		A92AA6DE2071FFDD00DED756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DC2071FFDD00DED756 /* LaunchScreen.storyboard */; };
-		A92AA6E92071FFDD00DED756 /* rope_node_spritekit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */; };
-		A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */; };
 		A92AA7022072007800DED756 /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AA7012072007800DED756 /* RopeNode.swift */; };
 		A92AA7042073FD7800DED756 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A92AA7032073FD7800DED756 /* .gitignore */; };
+		A963CA9520F4A19300C550C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963CA9420F4A19300C550C6 /* AppDelegate.swift */; };
+		A963CA9720F4A19300C550C6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A963CA9620F4A19300C550C6 /* GameScene.sks */; };
+		A963CA9B20F4A19300C550C6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963CA9A20F4A19300C550C6 /* GameScene.swift */; };
+		A963CA9D20F4A19300C550C6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963CA9C20F4A19300C550C6 /* GameViewController.swift */; };
+		A963CAA020F4A19300C550C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A963CA9E20F4A19300C550C6 /* Main.storyboard */; };
+		A963CAA520F4A19400C550C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A963CAA320F4A19400C550C6 /* LaunchScreen.storyboard */; };
+		A963CAAC20F4B8AF00C550C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92AA6DA2071FFDD00DED756 /* Assets.xcassets */; };
+		A963CAAE20F4F12700C550C6 /* DestructibleSpriteNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963CAAD20F4F12700C550C6 /* DestructibleSpriteNode.swift */; };
+		A963CAB020F4F15900C550C6 /* UIImage+ImageScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963CAAF20F4F15900C550C6 /* UIImage+ImageScale.swift */; };
 		A9E6A02020751D730069F3C1 /* SpriteRopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A92AA6E52071FFDD00DED756 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A92AA6C22071FFDC00DED756 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A92AA6C92071FFDC00DED756;
-			remoteInfo = "rope-node-spritekit-ios";
-		};
-		A92AA6F02071FFDD00DED756 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A92AA6C22071FFDC00DED756 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A92AA6C92071FFDC00DED756;
-			remoteInfo = "rope-node-spritekit-ios";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rope-node-spritekit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AA6CA2071FFDC00DED756 /* rope-node.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rope-node.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92AA6CD2071FFDC00DED756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A92AA6CF2071FFDC00DED756 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A92AA6D12071FFDC00DED756 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -50,14 +40,18 @@
 		A92AA6DA2071FFDD00DED756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92AA6DD2071FFDD00DED756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A92AA6DF2071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rope-node-spritekit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rope_node_spritekit_iosTests.swift; sourceTree = "<group>"; };
-		A92AA6EA2071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rope-node-spritekit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rope_node_spritekit_iosUITests.swift; sourceTree = "<group>"; };
-		A92AA6F52071FFDD00DED756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92AA7012072007800DED756 /* RopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
 		A92AA7032073FD7800DED756 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A963CA9220F4A19300C550C6 /* destructible-node.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "destructible-node.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A963CA9420F4A19300C550C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A963CA9620F4A19300C550C6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A963CA9A20F4A19300C550C6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A963CA9C20F4A19300C550C6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A963CA9F20F4A19300C550C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A963CAA420F4A19400C550C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A963CAA620F4A19400C550C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A963CAAD20F4F12700C550C6 /* DestructibleSpriteNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestructibleSpriteNode.swift; sourceTree = "<group>"; };
+		A963CAAF20F4F15900C550C6 /* UIImage+ImageScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ImageScale.swift"; sourceTree = "<group>"; };
 		A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteRopeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,14 +63,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A92AA6E12071FFDD00DED756 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A92AA6EC2071FFDD00DED756 /* Frameworks */ = {
+		A963CA8F20F4A19300C550C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,9 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A92AA7032073FD7800DED756 /* .gitignore */,
-				A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */,
-				A92AA6E72071FFDD00DED756 /* rope-node-spritekit-iosTests */,
-				A92AA6F22071FFDD00DED756 /* rope-node-spritekit-iosUITests */,
+				A92AA6CC2071FFDC00DED756 /* rope-node */,
+				A963CA9320F4A19300C550C6 /* destructible-node */,
 				A92AA6CB2071FFDC00DED756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,14 +86,13 @@
 		A92AA6CB2071FFDC00DED756 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */,
-				A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */,
-				A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */,
+				A92AA6CA2071FFDC00DED756 /* rope-node.app */,
+				A963CA9220F4A19300C550C6 /* destructible-node.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A92AA6CC2071FFDC00DED756 /* rope-node-spritekit-ios */ = {
+		A92AA6CC2071FFDC00DED756 /* rope-node */ = {
 			isa = PBXGroup;
 			children = (
 				A9E6A02420751DBD0069F3C1 /* View */,
@@ -118,25 +103,23 @@
 				A92AA6DA2071FFDD00DED756 /* Assets.xcassets */,
 				A92AA6DF2071FFDD00DED756 /* Info.plist */,
 			);
-			path = "rope-node-spritekit-ios";
+			path = "rope-node";
 			sourceTree = "<group>";
 		};
-		A92AA6E72071FFDD00DED756 /* rope-node-spritekit-iosTests */ = {
+		A963CA9320F4A19300C550C6 /* destructible-node */ = {
 			isa = PBXGroup;
 			children = (
-				A92AA6E82071FFDD00DED756 /* rope_node_spritekit_iosTests.swift */,
-				A92AA6EA2071FFDD00DED756 /* Info.plist */,
+				A963CA9420F4A19300C550C6 /* AppDelegate.swift */,
+				A963CA9620F4A19300C550C6 /* GameScene.sks */,
+				A963CA9A20F4A19300C550C6 /* GameScene.swift */,
+				A963CA9C20F4A19300C550C6 /* GameViewController.swift */,
+				A963CA9E20F4A19300C550C6 /* Main.storyboard */,
+				A963CAA320F4A19400C550C6 /* LaunchScreen.storyboard */,
+				A963CAA620F4A19400C550C6 /* Info.plist */,
+				A963CAAD20F4F12700C550C6 /* DestructibleSpriteNode.swift */,
+				A963CAAF20F4F15900C550C6 /* UIImage+ImageScale.swift */,
 			);
-			path = "rope-node-spritekit-iosTests";
-			sourceTree = "<group>";
-		};
-		A92AA6F22071FFDD00DED756 /* rope-node-spritekit-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A92AA6F32071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift */,
-				A92AA6F52071FFDD00DED756 /* Info.plist */,
-			);
-			path = "rope-node-spritekit-iosUITests";
+			path = "destructible-node";
 			sourceTree = "<group>";
 		};
 		A9E6A02120751D950069F3C1 /* Rope Node */ = {
@@ -178,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */ = {
+		A92AA6C92071FFDC00DED756 /* rope-node */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-ios" */;
+			buildConfigurationList = A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node" */;
 			buildPhases = (
 				A92AA6C62071FFDC00DED756 /* Sources */,
 				A92AA6C72071FFDC00DED756 /* Frameworks */,
@@ -190,46 +173,27 @@
 			);
 			dependencies = (
 			);
-			name = "rope-node-spritekit-ios";
+			name = "rope-node";
 			productName = "rope-node-spritekit-ios";
-			productReference = A92AA6CA2071FFDC00DED756 /* rope-node-spritekit-ios.app */;
+			productReference = A92AA6CA2071FFDC00DED756 /* rope-node.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A92AA6E32071FFDD00DED756 /* rope-node-spritekit-iosTests */ = {
+		A963CA9120F4A19300C550C6 /* destructible-node */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A92AA6FB2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosTests" */;
+			buildConfigurationList = A963CAA920F4A19400C550C6 /* Build configuration list for PBXNativeTarget "destructible-node" */;
 			buildPhases = (
-				A92AA6E02071FFDD00DED756 /* Sources */,
-				A92AA6E12071FFDD00DED756 /* Frameworks */,
-				A92AA6E22071FFDD00DED756 /* Resources */,
+				A963CA8E20F4A19300C550C6 /* Sources */,
+				A963CA8F20F4A19300C550C6 /* Frameworks */,
+				A963CA9020F4A19300C550C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A92AA6E62071FFDD00DED756 /* PBXTargetDependency */,
 			);
-			name = "rope-node-spritekit-iosTests";
-			productName = "rope-node-spritekit-iosTests";
-			productReference = A92AA6E42071FFDD00DED756 /* rope-node-spritekit-iosTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A92AA6EE2071FFDD00DED756 /* rope-node-spritekit-iosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A92AA6FE2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosUITests" */;
-			buildPhases = (
-				A92AA6EB2071FFDD00DED756 /* Sources */,
-				A92AA6EC2071FFDD00DED756 /* Frameworks */,
-				A92AA6ED2071FFDD00DED756 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A92AA6F12071FFDD00DED756 /* PBXTargetDependency */,
-			);
-			name = "rope-node-spritekit-iosUITests";
-			productName = "rope-node-spritekit-iosUITests";
-			productReference = A92AA6EF2071FFDD00DED756 /* rope-node-spritekit-iosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "destructible-node";
+			productName = "destructible-sprite";
+			productReference = A963CA9220F4A19300C550C6 /* destructible-node.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -237,24 +201,19 @@
 		A92AA6C22071FFDC00DED756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Astemir Eleev";
 				TargetAttributes = {
 					A92AA6C92071FFDC00DED756 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					A92AA6E32071FFDD00DED756 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = A92AA6C92071FFDC00DED756;
-					};
-					A92AA6EE2071FFDD00DED756 = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = A92AA6C92071FFDC00DED756;
+					A963CA9120F4A19300C550C6 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "rope-node-spritekit-ios" */;
+			buildConfigurationList = A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "experiments-spritekit-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,9 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */,
-				A92AA6E32071FFDD00DED756 /* rope-node-spritekit-iosTests */,
-				A92AA6EE2071FFDD00DED756 /* rope-node-spritekit-iosUITests */,
+				A92AA6C92071FFDC00DED756 /* rope-node */,
+				A963CA9120F4A19300C550C6 /* destructible-node */,
 			);
 		};
 /* End PBXProject section */
@@ -288,17 +246,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A92AA6E22071FFDD00DED756 /* Resources */ = {
+		A963CA9020F4A19300C550C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A92AA6ED2071FFDD00DED756 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A963CAA020F4A19300C550C6 /* Main.storyboard in Resources */,
+				A963CA9720F4A19300C550C6 /* GameScene.sks in Resources */,
+				A963CAA520F4A19400C550C6 /* LaunchScreen.storyboard in Resources */,
+				A963CAAC20F4B8AF00C550C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,36 +272,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A92AA6E02071FFDD00DED756 /* Sources */ = {
+		A963CA8E20F4A19300C550C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92AA6E92071FFDD00DED756 /* rope_node_spritekit_iosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A92AA6EB2071FFDD00DED756 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A92AA6F42071FFDD00DED756 /* rope_node_spritekit_iosUITests.swift in Sources */,
+				A963CAAE20F4F12700C550C6 /* DestructibleSpriteNode.swift in Sources */,
+				A963CAB020F4F15900C550C6 /* UIImage+ImageScale.swift in Sources */,
+				A963CA9B20F4A19300C550C6 /* GameScene.swift in Sources */,
+				A963CA9D20F4A19300C550C6 /* GameViewController.swift in Sources */,
+				A963CA9520F4A19300C550C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A92AA6E62071FFDD00DED756 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */;
-			targetProxy = A92AA6E52071FFDD00DED756 /* PBXContainerItemProxy */;
-		};
-		A92AA6F12071FFDD00DED756 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A92AA6C92071FFDC00DED756 /* rope-node-spritekit-ios */;
-			targetProxy = A92AA6F02071FFDD00DED756 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A92AA6D72071FFDC00DED756 /* Main.storyboard */ = {
@@ -361,6 +299,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A92AA6DD2071FFDD00DED756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A963CA9E20F4A19300C550C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A963CA9F20F4A19300C550C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A963CAA320F4A19400C550C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A963CAA420F4A19400C550C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -419,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -473,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -488,12 +442,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/rope-node/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,104 +460,60 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/rope-node/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A92AA6FC2071FFDD00DED756 /* Debug */ = {
+		A963CAA720F4A19400C550C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-iosTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/destructible-node/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.destructible-node";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rope-node-spritekit-ios.app/rope-node-spritekit-ios";
 			};
 			name = Debug;
 		};
-		A92AA6FD2071FFDD00DED756 /* Release */ = {
+		A963CAA820F4A19400C550C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-iosTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/destructible-node/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.destructible-node";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rope-node-spritekit-ios.app/rope-node-spritekit-ios";
-			};
-			name = Release;
-		};
-		A92AA6FF2071FFDD00DED756 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "rope-node-spritekit-ios";
-			};
-			name = Debug;
-		};
-		A92AA7002071FFDD00DED756 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T3K58FE38R;
-				INFOPLIST_FILE = "rope-node-spritekit-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.rope-node-spritekit-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "rope-node-spritekit-ios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "rope-node-spritekit-ios" */ = {
+		A92AA6C52071FFDC00DED756 /* Build configuration list for PBXProject "experiments-spritekit-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92AA6F62071FFDD00DED756 /* Debug */,
@@ -612,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-ios" */ = {
+		A92AA6F82071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A92AA6F92071FFDD00DED756 /* Debug */,
@@ -621,20 +531,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A92AA6FB2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosTests" */ = {
+		A963CAA920F4A19400C550C6 /* Build configuration list for PBXNativeTarget "destructible-node" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A92AA6FC2071FFDD00DED756 /* Debug */,
-				A92AA6FD2071FFDD00DED756 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A92AA6FE2071FFDD00DED756 /* Build configuration list for PBXNativeTarget "rope-node-spritekit-iosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A92AA6FF2071FFDD00DED756 /* Debug */,
-				A92AA7002071FFDD00DED756 /* Release */,
+				A963CAA720F4A19400C550C6 /* Debug */,
+				A963CAA820F4A19400C550C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
