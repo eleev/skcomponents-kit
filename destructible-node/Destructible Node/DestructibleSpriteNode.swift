@@ -34,28 +34,30 @@ class DestructibleSpriteNode: SKSpriteNode {
     // MARK: - Methods
     
     func hitAt(point: CGPoint, objectSize: CGSize) {
-        let size = self.size
-        
-        let xPoint = point.x + size.width / 2.0
-        let yPoint = abs(point.y - (size.height / 2.0))
-        let convertedPoint = CGPoint(x: xPoint, y: yPoint)
-        
-        let width = objectSize.width
-        let height = objectSize.height
-        
-        let renderer = UIGraphicsImageRenderer(size: size)
-        let renderedImage = renderer.image { ctx in
-            currentImage.draw(at: CGPoint(x: 0, y: 0))
+        DispatchQueue.main.async {
+            let size = self.size
             
-            ctx.cgContext.addEllipse(in: CGRect(x: convertedPoint.x - width / 2, y: convertedPoint.y - height / 2, width: width, height: height))
-            ctx.cgContext.setBlendMode(.clear)
-            ctx.cgContext.drawPath(using: .fill)
+            let xPoint = point.x + size.width / 2.0
+            let yPoint = abs(point.y - (size.height / 2.0))
+            let convertedPoint = CGPoint(x: xPoint, y: yPoint)
+            
+            let width = objectSize.width
+            let height = objectSize.height
+            
+            let renderer = UIGraphicsImageRenderer(size: size)
+            let renderedImage = renderer.image { ctx in
+                self.currentImage.draw(at: CGPoint(x: 0, y: 0))
+                
+                ctx.cgContext.addEllipse(in: CGRect(x: convertedPoint.x - width / 2, y: convertedPoint.y - height / 2, width: width, height: height))
+                ctx.cgContext.setBlendMode(.clear)
+                ctx.cgContext.drawPath(using: .fill)
+            }
+            
+            self.texture = SKTexture(image: renderedImage)
+            self.currentImage = renderedImage
+            
+            self.configurePhysics()
         }
-        
-        texture = SKTexture(image: renderedImage)
-        currentImage = renderedImage
-        
-        configurePhysics()
     }
     
     // MARK: - Private mehtods
