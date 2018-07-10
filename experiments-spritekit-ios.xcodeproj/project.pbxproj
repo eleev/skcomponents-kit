@@ -109,17 +109,49 @@
 		A963CA9320F4A19300C550C6 /* destructible-node */ = {
 			isa = PBXGroup;
 			children = (
+				A963CAB320F4F51000C550C6 /* View */,
+				A963CAB120F4F4F100C550C6 /* View Controllers */,
+				A963CAB220F4F4FD00C550C6 /* Scenes */,
+				A963CAB420F4F52100C550C6 /* Destructible Node */,
 				A963CA9420F4A19300C550C6 /* AppDelegate.swift */,
+				A963CAA620F4A19400C550C6 /* Info.plist */,
+			);
+			path = "destructible-node";
+			sourceTree = "<group>";
+		};
+		A963CAB120F4F4F100C550C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A963CA9C20F4A19300C550C6 /* GameViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A963CAB220F4F4FD00C550C6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
 				A963CA9620F4A19300C550C6 /* GameScene.sks */,
 				A963CA9A20F4A19300C550C6 /* GameScene.swift */,
-				A963CA9C20F4A19300C550C6 /* GameViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A963CAB320F4F51000C550C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				A963CA9E20F4A19300C550C6 /* Main.storyboard */,
 				A963CAA320F4A19400C550C6 /* LaunchScreen.storyboard */,
-				A963CAA620F4A19400C550C6 /* Info.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A963CAB420F4F52100C550C6 /* Destructible Node */ = {
+			isa = PBXGroup;
+			children = (
 				A963CAAD20F4F12700C550C6 /* DestructibleSpriteNode.swift */,
 				A963CAAF20F4F15900C550C6 /* UIImage+ImageScale.swift */,
 			);
-			path = "destructible-node";
+			path = "Destructible Node";
 			sourceTree = "<group>";
 		};
 		A9E6A02120751D950069F3C1 /* Rope Node */ = {
