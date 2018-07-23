@@ -9,7 +9,7 @@
 import Foundation
 import SpriteKit
 
-class Joystick: SKNode, Updatable {
+class Joystick: SKNode {
     
     // MARK: - Properties
     
