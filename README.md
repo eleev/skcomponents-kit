@@ -28,4 +28,4 @@ This repository contains a collection of various `SpriteKit` nodes and component
 [Astemir Eleev](https://github.com/jVirus)
 
 # Licence 
-The project is availabe under [GNU GENERAL PUBLIC LICENSE](https://github.com/jVirus/rope-node-spritekit-ios/blob/master/LICENSE)
+The project is availabe under [GNU GENERAL PUBLIC LICENSE](https://github.com/jVirus/skcomponents-kit/blob/master/LICENSE)
