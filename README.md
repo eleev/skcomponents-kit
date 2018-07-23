@@ -1,4 +1,4 @@
-# experiments-spritekit-ios
+# skcomponents-kit
 This repository contains a collection of various `SpriteKit` nodes and components for intermediate/advanced use cases.
 
 # Caution
