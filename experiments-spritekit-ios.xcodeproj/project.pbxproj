@@ -29,6 +29,18 @@
 		A9E15A4320F4FF3A00FA2AB3 /* ExplosionParticleEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9E15A4120F4FF3A00FA2AB3 /* ExplosionParticleEmitter.sks */; };
 		A9E15A4420F4FF3A00FA2AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E15A4220F4FF3A00FA2AB3 /* Assets.xcassets */; };
 		A9E6A02020751D730069F3C1 /* SpriteRopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */; };
+		A9EA457F21060F7000D947E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA457E21060F7000D947E2 /* AppDelegate.swift */; };
+		A9EA458121060F7000D947E2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9EA458021060F7000D947E2 /* GameScene.sks */; };
+		A9EA458321060F7000D947E2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9EA458221060F7000D947E2 /* Actions.sks */; };
+		A9EA458521060F7000D947E2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA458421060F7000D947E2 /* GameScene.swift */; };
+		A9EA458721060F7000D947E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA458621060F7000D947E2 /* GameViewController.swift */; };
+		A9EA458A21060F7000D947E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA458821060F7000D947E2 /* Main.storyboard */; };
+		A9EA458C21060F7100D947E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EA458B21060F7100D947E2 /* Assets.xcassets */; };
+		A9EA458F21060F7100D947E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA458D21060F7100D947E2 /* LaunchScreen.storyboard */; };
+		A9EA459C2106103D00D947E2 /* MoveControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA45982106103C00D947E2 /* MoveControllable.swift */; };
+		A9EA459D2106103D00D947E2 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA45992106103C00D947E2 /* Joystick.swift */; };
+		A9EA459E2106103D00D947E2 /* Controllable2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA459A2106103C00D947E2 /* Controllable2D.swift */; };
+		A9EA459F2106103D00D947E2 /* RotateControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA459B2106103D00D947E2 /* RotateControllable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +69,20 @@
 		A9E15A4120F4FF3A00FA2AB3 /* ExplosionParticleEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionParticleEmitter.sks; sourceTree = "<group>"; };
 		A9E15A4220F4FF3A00FA2AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9E6A01F20751D730069F3C1 /* SpriteRopeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteRopeNode.swift; sourceTree = "<group>"; };
+		A9EA457C21060F7000D947E2 /* joystick-node.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "joystick-node.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EA457E21060F7000D947E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9EA458021060F7000D947E2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A9EA458221060F7000D947E2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A9EA458421060F7000D947E2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A9EA458621060F7000D947E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A9EA458921060F7000D947E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9EA458B21060F7100D947E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9EA458E21060F7100D947E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9EA459021060F7100D947E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9EA45982106103C00D947E2 /* MoveControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveControllable.swift; sourceTree = "<group>"; };
+		A9EA45992106103C00D947E2 /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+		A9EA459A2106103C00D947E2 /* Controllable2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controllable2D.swift; sourceTree = "<group>"; };
+		A9EA459B2106103D00D947E2 /* RotateControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateControllable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9EA457921060F7000D947E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +116,7 @@
 				A92AA7032073FD7800DED756 /* .gitignore */,
 				A92AA6CC2071FFDC00DED756 /* rope-node */,
 				A963CA9320F4A19300C550C6 /* destructible-node */,
+				A9EA457D21060F7000D947E2 /* joystick-node */,
 				A92AA6CB2071FFDC00DED756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +126,7 @@
 			children = (
 				A92AA6CA2071FFDC00DED756 /* rope-node.app */,
 				A963CA9220F4A19300C550C6 /* destructible-node.app */,
+				A9EA457C21060F7000D947E2 /* joystick-node.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +231,58 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A9EA457D21060F7000D947E2 /* joystick-node */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA459721060FB500D947E2 /* Joystick */,
+				A9EA459621060F9D00D947E2 /* Scenes */,
+				A9EA459521060F8E00D947E2 /* View Controllers */,
+				A9EA459421060F7C00D947E2 /* View */,
+				A9EA457E21060F7000D947E2 /* AppDelegate.swift */,
+				A9EA459021060F7100D947E2 /* Info.plist */,
+			);
+			path = "joystick-node";
+			sourceTree = "<group>";
+		};
+		A9EA459421060F7C00D947E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA458821060F7000D947E2 /* Main.storyboard */,
+				A9EA458D21060F7100D947E2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A9EA459521060F8E00D947E2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA458621060F7000D947E2 /* GameViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A9EA459621060F9D00D947E2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA458021060F7000D947E2 /* GameScene.sks */,
+				A9EA458221060F7000D947E2 /* Actions.sks */,
+				A9EA458421060F7000D947E2 /* GameScene.swift */,
+				A9EA458B21060F7100D947E2 /* Assets.xcassets */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A9EA459721060FB500D947E2 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				A9EA459A2106103C00D947E2 /* Controllable2D.swift */,
+				A9EA45992106103C00D947E2 /* Joystick.swift */,
+				A9EA45982106103C00D947E2 /* MoveControllable.swift */,
+				A9EA459B2106103D00D947E2 /* RotateControllable.swift */,
+			);
+			path = Joystick;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +320,23 @@
 			productReference = A963CA9220F4A19300C550C6 /* destructible-node.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A9EA457B21060F7000D947E2 /* joystick-node */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EA459321060F7100D947E2 /* Build configuration list for PBXNativeTarget "joystick-node" */;
+			buildPhases = (
+				A9EA457821060F7000D947E2 /* Sources */,
+				A9EA457921060F7000D947E2 /* Frameworks */,
+				A9EA457A21060F7000D947E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "joystick-node";
+			productName = "joystick-node";
+			productReference = A9EA457C21060F7000D947E2 /* joystick-node.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,6 +351,9 @@
 						CreatedOnToolsVersion = 9.3;
 					};
 					A963CA9120F4A19300C550C6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A9EA457B21060F7000D947E2 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -266,6 +373,7 @@
 			targets = (
 				A92AA6C92071FFDC00DED756 /* rope-node */,
 				A963CA9120F4A19300C550C6 /* destructible-node */,
+				A9EA457B21060F7000D947E2 /* joystick-node */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +405,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9EA457A21060F7000D947E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA458A21060F7000D947E2 /* Main.storyboard in Resources */,
+				A9EA458121060F7000D947E2 /* GameScene.sks in Resources */,
+				A9EA458C21060F7100D947E2 /* Assets.xcassets in Resources */,
+				A9EA458F21060F7100D947E2 /* LaunchScreen.storyboard in Resources */,
+				A9EA458321060F7000D947E2 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,6 +441,20 @@
 				A963CA9B20F4A19300C550C6 /* GameScene.swift in Sources */,
 				A963CA9D20F4A19300C550C6 /* GameViewController.swift in Sources */,
 				A963CA9520F4A19300C550C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9EA457821060F7000D947E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EA458521060F7000D947E2 /* GameScene.swift in Sources */,
+				A9EA459C2106103D00D947E2 /* MoveControllable.swift in Sources */,
+				A9EA459D2106103D00D947E2 /* Joystick.swift in Sources */,
+				A9EA458721060F7000D947E2 /* GameViewController.swift in Sources */,
+				A9EA459E2106103D00D947E2 /* Controllable2D.swift in Sources */,
+				A9EA459F2106103D00D947E2 /* RotateControllable.swift in Sources */,
+				A9EA457F21060F7000D947E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +489,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				A963CAA420F4A19400C550C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A9EA458821060F7000D947E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA458921060F7000D947E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9EA458D21060F7100D947E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EA458E21060F7100D947E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -550,6 +700,42 @@
 			};
 			name = Release;
 		};
+		A9EA459121060F7100D947E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "joystick-node/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.joystick-node";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9EA459221060F7100D947E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "joystick-node/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.joystick-node";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -576,6 +762,15 @@
 			buildConfigurations = (
 				A963CAA720F4A19400C550C6 /* Debug */,
 				A963CAA820F4A19400C550C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9EA459321060F7100D947E2 /* Build configuration list for PBXNativeTarget "joystick-node" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EA459121060F7100D947E2 /* Debug */,
+				A9EA459221060F7100D947E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
