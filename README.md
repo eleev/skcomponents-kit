@@ -4,6 +4,11 @@ This repository contains a collection of various `SpriteKit` nodes and component
 # Caution
 - Please note that you have to be very careful if you are going to use the repo in commercial projects - **do not use** graphics assets. The assets were taken from the `Web` and [icons8.com](https://icons8.com). However **I strongly recommend to double check it**.
 
+# Joystick Node
+🕹 Joystick node component. Controlls `movement` or/and `orientation` of attached node. Implemented using `POP` design. In order to use you need to conform to `Controllable2D` protocol composition typealias. Or you can conform to either `MovableProtocol` or `OrientationProtocol`. 
+
+## Demo 
+<img src="https://user-images.githubusercontent.com/5098753/43082767-809d26dc-8e9d-11e8-922e-474e8bf9f12c.gif" width="650">
 
 # Rope Node
 ⛓ Rope/Chain node component. Can also be used to simulate bridges, platforms and gameplay elemnts. 
