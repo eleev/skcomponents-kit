@@ -20,7 +20,7 @@ This repository contains a collection of various `SpriteKit` nodes and component
 <img src="https://user-images.githubusercontent.com/5098753/38315832-0066c192-3832-11e8-8d20-d65daa1bf00b.gif" width="650">
 
 # Destructible Node
-💣 Adds an ability to visualize explosions for 'SKSpriteNode's. The physics shape is recalculated when sprite is re-rendered. The effect is fairly simple, however it can be used for games like 'Worlms' in order to add more dynamic gameplay when using projectiles and bombs.
+💣 Adds an ability to visualize explosions for `SKSpriteNode`s. The physics shape is recalculated when sprite is re-rendered. The effect is fairly simple, however it can be used for games like `Worms` in order to add more dynamic gameplay when using projectiles and bombs.
 
 ## ToDo
 - [ ] Proper resizing - right now the texture is reset back to the original size when hit tested
