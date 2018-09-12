@@ -1,9 +1,10 @@
 # skcomponents-kit [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
+[![Framework](https://img.shields.io/badge/framework-SpriteKit-red.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 02/September/2018.**
+**Last Update: 12/September/2018.**
 
 # ✍️ About
 
@@ -11,6 +12,14 @@ This repository contains a collection of various `SpriteKit` nodes and component
 
 # ⚠️ Caution
 - Please note that you have to be very careful if you are going to use the repo in commercial projects - **do not use** graphics assets. The assets were taken from the `Web` and [icons8.com](https://icons8.com). However **I strongly recommend to double check it**.
+
+# 🏗 Installation
+
+## Cocoapods
+Will be added in the next update. 
+
+## Manual
+You can always handpick the component from the sources and manually add it to your project.
 
 # 🕹 Joystick Node
 Joystick node component. Controlls `movement` or/and `orientation` of attached node. Implemented using `POP` design. In order to use you need to conform to `Controllable2D` protocol composition typealias. Or you can conform to either `MovableProtocol` or `OrientationProtocol`. 
