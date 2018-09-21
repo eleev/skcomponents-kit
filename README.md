@@ -4,7 +4,7 @@
 [![Framework](https://img.shields.io/badge/framework-SpriteKit-red.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 15/September/2018.**
+**Last Update: 21/September/2018.**
 
 ![](logo-skcomponents_kit.png)
 
