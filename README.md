@@ -4,11 +4,11 @@
 [![Framework](https://img.shields.io/badge/framework-SpriteKit-red.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-**Last Update: 19/December/2018.**
-
-### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
+**Last Update: 03/January/2019.**
 
 ![](logo-skcomponents_kit.png)
+
+### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
 # ✍️ About
 
